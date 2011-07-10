@@ -466,6 +466,7 @@
 				GCC_VERSION = "";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = ObjectiveFlickr;
+				PUBLIC_HEADERS_FOLDER_PATH = ObjectiveFlickr;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -481,6 +482,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_VERSION = "";
 				PRODUCT_NAME = ObjectiveFlickr;
+				PUBLIC_HEADERS_FOLDER_PATH = ObjectiveFlickr;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -488,7 +490,7 @@
 			};
 			name = Release;
 		};
-		D343E28813C979DD007330D6 /* Ad Hoc */ = {
+		D35506AE13CA1D46005E68BD /* AdHoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
@@ -520,9 +522,9 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = "Ad Hoc";
+			name = AdHoc;
 		};
-		D343E28913C979DD007330D6 /* Ad Hoc */ = {
+		D35506AF13CA1D46005E68BD /* AdHoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
@@ -530,9 +532,9 @@
 				PRODUCT_NAME = All;
 				ZERO_LINK = NO;
 			};
-			name = "Ad Hoc";
+			name = AdHoc;
 		};
-		D343E28A13C979DD007330D6 /* Ad Hoc */ = {
+		D35506B013CA1D46005E68BD /* AdHoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -557,9 +559,9 @@
 				PRODUCT_NAME = ObjectiveFlickr;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 			};
-			name = "Ad Hoc";
+			name = AdHoc;
 		};
-		D343E28B13C979DD007330D6 /* Ad Hoc */ = {
+		D35506B113CA1D46005E68BD /* AdHoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -568,12 +570,13 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_VERSION = "";
 				PRODUCT_NAME = ObjectiveFlickr;
+				PUBLIC_HEADERS_FOLDER_PATH = ObjectiveFlickr;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				ZERO_LINK = NO;
 			};
-			name = "Ad Hoc";
+			name = AdHoc;
 		};
 /* End XCBuildConfiguration section */
 
@@ -583,7 +586,7 @@
 			buildConfigurations = (
 				6A86664B0F9593B300325E1C /* Debug */,
 				6A86664C0F9593B300325E1C /* Release */,
-				D343E28A13C979DD007330D6 /* Ad Hoc */,
+				D35506B013CA1D46005E68BD /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -593,7 +596,7 @@
 			buildConfigurations = (
 				6A8666A70F95956A00325E1C /* Debug */,
 				6A8666A80F95956A00325E1C /* Release */,
-				D343E28913C979DD007330D6 /* Ad Hoc */,
+				D35506AF13CA1D46005E68BD /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -603,7 +606,7 @@
 			buildConfigurations = (
 				6ABF72D20F939BB800B9179E /* Debug */,
 				6ABF72D30F939BB800B9179E /* Release */,
-				D343E28813C979DD007330D6 /* Ad Hoc */,
+				D35506AE13CA1D46005E68BD /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -613,7 +616,7 @@
 			buildConfigurations = (
 				6ABF72E80F939BE700B9179E /* Debug */,
 				6ABF72E90F939BE700B9179E /* Release */,
-				D343E28B13C979DD007330D6 /* Ad Hoc */,
+				D35506B113CA1D46005E68BD /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
